@@ -1,0 +1,45 @@
+{
+  "name": "agency_webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "payload": "cross-env PAYLOAD_CONFIG_PATH=payload.config.ts payload",
+    "payload:dev": "cross-env PAYLOAD_CONFIG_PATH=payload.config.ts payload dev"
+  },
+  "dependencies": {
+    "@payloadcms/db-mongodb": "^3.52.0",
+    "@payloadcms/email-nodemailer": "^3.52.0",
+    "@payloadcms/next": "^3.52.0",
+    "@payloadcms/richtext-lexical": "^3.52.0",
+    "@react-email/components": "^0.3.2",
+    "@react-email/tailwind": "^1.2.2",
+    "@tailwindcss/typography": "^0.5.16",
+    "cloudinary": "^2.7.0",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.1",
+    "framer-motion": "^12.23.12",
+    "next": "15.4.2",
+    "payload": "^3.52.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "resend": "^4.7.0",
+    "sass": "^1.90.0",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
